@@ -1,2 +1,5 @@
-# startup-success-ML
-Predicted startup success using ML algorithms from scratch (Logistic regression, Decision tree, KNN, and SVM) in search for the optimization algorithm with the fastest computational time and accuracy
+# Startup Sucess with Optimizing Machine Learning Algorithms
+
+### Abstract
+
+This study aims to identify the most accurate algorithm for predicting the success of startups. Four commonly used algorithms, namely logistic regression, decision tree, support vector machine (SVM), and K-nearest neighbors (KNN), were evaluated and compared in terms of their predictive performance. The evaluation results revealed that the logistic regression algorithm exhibited the highest accuracy among the tested models with the second-highest computational time. The SVM algorithm demonstrated the fastest computational time but with the lowest accuracy of 69.27%. These findings contribute to the understanding of the strengths and limitations of various algorithms in predicting startup success. Future research could focus on optimizing the computational efficiency of the decision tree algorithm, as it has the slowest computational time of 23.49 seconds, or exploring hybrid models that combine the strengths of different algorithms.
