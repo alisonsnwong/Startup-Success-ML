@@ -6,15 +6,15 @@ This study aims to identify the most accurate algorithm for predicting the succe
 
 :robot: **Data Source**: Provided by an ML engineer from GMO. It contains 923 startup companies and 49 features.
 
-### Data Preprocessing:
+## Data Preprocessing:
 * Dropped unnecessary columns
 * Replaced NA values with feature averages
 * Standardized features to have zero mean and unit variance
   
-### Feature Importance:
+## Feature Importance:
 Features such as **relationships** and **milestones** were found to be significant predictors of startup success. A correlation heatmap was used to determine the importance of each feature.
 
-### Four machine learning algorithms were implemented and evaluated:
+## Four machine learning algorithms were implemented and evaluated:
 **Logistic Regression**: Used gradient descent to update weights and biases. Achieved the highest accuracy (75.68%) with a computational time of 0.034 seconds.
 
 **Decision Tree**: Implemented using attribute selection measures like entropy, Gini impurity, and information gain. Achieved an accuracy of 72.43% but with the slowest computational time (23.49 seconds).
